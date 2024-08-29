@@ -1,0 +1,61 @@
+body {
+    max-width:800px;
+    margin:auto;
+    height:auto;
+    background-color: #081d2b;
+    color: #e6ffff;
+    font-family: Cursive;
+    font-size: 17px;
+    border:white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3em auto;
+}
+
+p, h4 {
+    text-align: center;
+    margin-top: 3em auto;
+    margin:2em;
+}
+
+img {
+    width:400px;
+    height:300px;
+    border-radius:60px;
+    margin-top:auto;
+    margin-bottom:2em;
+    border:4px dashed #000000cc;
+    display:inline;
+}
+
+img[class="left"] {
+    float:left;
+    margin-right:5em;
+}
+
+img[class="right"] {
+    float:right;
+    margin-left:5em;
+}
+
+img[class="circle"] {
+    float:left;
+    margin-left:5em;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+.academics, .sports, .extracurriculars {
+    clear: both;
+}
